@@ -9,10 +9,11 @@ app.use(express.json())
 // - Route params => /users/2     //BUSCAR, DELETAR OU ATUALIZAR ALGO ESPECÍFICO
 // - Request body => {"name": "Matheus", "age":}
 
-// - GET         => Buscar informação no back-end
-// - POST        => Criar informação no back-end
-// - PUT / PATCH => Alterar/Atualizar informação no back-end
-// - DELETE      => Deletar informação no banck-end
+//Alguns princípios de REST
+// - GET         => Buscar informação no back-end - Apenas lista os usuários. 
+// - POST        => Criar informação no back-end - Apenas cria os usuários. 
+// - PUT / PATCH => Alterar/Atualizar informação no back-end - Apenas edita os usuários.
+// - DELETE      => Deletar informação no banck-end - Apenas deleta os usuários.
 
 // - Middlewarre => INTERCEPTADOR => Tem o pooder de parar ou alterar dados da requisição.
 
